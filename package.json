@@ -6,8 +6,8 @@
     "main": "lib/index.js",
     "dependencies": {
         "lodash": "2.4.1",
-        "gitbook-markdown": "1.0.0",
-        "gitbook-asciidoc": "1.0.0",
+        "gitbook-markdown": "0.1.0",
+        "gitbook-asciidoc": "0.1.0",
         "normall": "0.2.2"
     },
     "repository": {
