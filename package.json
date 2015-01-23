@@ -6,9 +6,14 @@
     "main": "lib/index.js",
     "dependencies": {
         "lodash": "2.4.1",
-        "gitbook-markdown": "0.1.0",
-        "gitbook-asciidoc": "0.1.0",
-        "normall": "0.2.2"
+        "gitbook-markdown": "0.1.1",
+        "gitbook-asciidoc": "0.1.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-cli": "0.1.11",
+        "grunt-browserify": "3.3.0",
+        "grunt-contrib-uglify": "0.6.0"
     },
     "repository": {
         "type": "git",
@@ -28,5 +33,9 @@
             "name": "Samy Pessé",
             "email": "samy@gitbook.com"
         }
-    ]
+    ],
+    "browser": {
+        "gitbook-asciidoc": false,
+        "lib/parsers/asciidoc.js": "lib/parsers/asciidoc-browser.js"
+    }
 }
