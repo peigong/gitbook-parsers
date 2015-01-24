@@ -26,3 +26,7 @@ node_modules
 
 # vim swapfile
 *.swp
+
+# Client versions
+gitbook-parsers.js
+gitbook-parsers.min.js
