@@ -37,5 +37,8 @@
     "browser": {
         "gitbook-asciidoc": false,
         "lib/parsers/asciidoc.js": "lib/parsers/asciidoc-browser.js"
+    },
+    "scripts": {
+        "prepublish": "grunt"
     }
 }
