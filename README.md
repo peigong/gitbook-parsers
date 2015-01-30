@@ -6,4 +6,5 @@ This node module unify the interface to use parsers:
 
 - [Markdown](https://github.com/GitbookIO/gitbook-markdown) [![Build Status](https://travis-ci.org/GitbookIO/gitbook-markdown.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-markdown)
 - [AsciiDoc](https://github.com/GitbookIO/gitbook-asciidoc) [![Build Status](https://travis-ci.org/GitbookIO/gitbook-asciidoc.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-asciidoc)
+- [reStructuredText](https://github.com/GitbookIO/gitbook-restructuredtext) [![Build Status](https://travis-ci.org/GitbookIO/gitbook-restructuredtext.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-restructuredtext)
 
