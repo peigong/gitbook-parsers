@@ -7,9 +7,9 @@
     "dependencies": {
         "q": "1.1.2",
         "lodash": "2.4.1",
-        "gitbook-markdown": "0.1.4",
-        "gitbook-asciidoc": "0.1.2",
-        "gitbook-restructuredtext": "0.1.0"
+        "gitbook-markdown": "0.2.2",
+        "gitbook-asciidoc": "0.2.0",
+        "gitbook-restructuredtext": "0.2.0"
     },
     "devDependencies": {
         "grunt": "~0.4.2",
