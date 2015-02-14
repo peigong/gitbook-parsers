@@ -10,3 +10,71 @@ This node module unify the interface to use parsers:
 | [AsciiDoc](https://github.com/GitbookIO/gitbook-asciidoc) | [![NPM version](https://badge.fury.io/js/gitbook-asciidoc.svg)](http://badge.fury.io/js/gitbook-asciidoc) | [![Build Status](https://travis-ci.org/GitbookIO/gitbook-asciidoc.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-asciidoc) |
 | [reStructuredText](https://github.com/GitbookIO/gitbook-restructuredtext) | [![NPM version](https://badge.fury.io/js/gitbook-restructuredtext.svg)](http://badge.fury.io/js/gitbook-restructuredtext) | [![Build Status](https://travis-ci.org/GitbookIO/gitbook-restructuredtext.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-restructuredtext) |
 
+
+### How to use it?
+
+This module can be used in **node.js** and in the **browser**
+
+##### In the Browser:
+
+Include the file:
+
+```
+<script src="library/gitbook-parsers.min.js" />
+```
+
+##### In Node.js:
+
+```
+npm install gitbook-parsers
+```
+
+Then include it using:
+
+```js
+var gitbookParsers = require("gitbook-parsers");
+```
+
+##### Get a parser for a file:
+
+```js
+var parser = gitbookParsers.getForFile("FILE.md");
+```
+
+##### Use this parser:
+
+Parse the summary:
+
+```js
+parser.summary("* [An entry](./test.md)")
+.then(function(summary) {
+
+});
+```
+
+Parse the glossary:
+
+```js
+parser.glossary("...")
+.then(function(glossary) {
+
+});
+```
+
+Parse the languages index:
+
+```js
+parser.langs("...")
+.then(function(languages) {
+
+});
+```
+
+Parse a page to html:
+
+```js
+parser.page("...")
+.then(function(sections) {
+
+});
+```
