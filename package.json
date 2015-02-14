@@ -5,11 +5,11 @@
     "description": "Includes GitBook parsers and normalize output",
     "main": "lib/index.js",
     "dependencies": {
-        "q": "1.1.2",
-        "lodash": "3.1.0",
-        "gitbook-markdown": "0.2.3",
-        "gitbook-asciidoc": "0.2.1",
-        "gitbook-restructuredtext": "0.2.1"
+        "q": "^1.1.2",
+        "lodash": "^3.2.0",
+        "gitbook-markdown": "0.2.4",
+        "gitbook-asciidoc": "0.2.2",
+        "gitbook-restructuredtext": "0.2.2"
     },
     "devDependencies": {
         "mocha": "1.18.2",
