@@ -1,6 +1,6 @@
 # GitBook Parsers
 
-[![NPM version](https://badge.fury.io/js/gitbook-parsers.svg)](http://badge.fury.io/js/gitbook-parsers)
+[![NPM version](https://badge.fury.io/js/gitbook-parsers.svg)](http://badge.fury.io/js/gitbook-parsers) [![Build Status](https://travis-ci.org/GitbookIO/gitbook-parsers.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-parsers)
 
 This node module unify the interface to use parsers:
 

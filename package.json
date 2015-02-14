@@ -12,6 +12,7 @@
         "gitbook-restructuredtext": "0.2.1"
     },
     "devDependencies": {
+        "mocha": "1.18.2",
         "grunt": "~0.4.2",
         "grunt-cli": "0.1.11",
         "grunt-browserify": "3.3.0",
@@ -37,10 +38,10 @@
         }
     ],
     "browser": {
-        "gitbook-asciidoc": false,
         "gitbook-restructuredtext": false
     },
     "scripts": {
-        "prepublish": "grunt"
+        "prepublish": "grunt",
+        "test": "export TESTING=true; mocha --reporter list"
     }
 }
