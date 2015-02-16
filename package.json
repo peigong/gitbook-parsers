@@ -48,8 +48,7 @@
     "browserify-swap":{
         "@packages": [ "cheerio", "gitbook-asciidoc", "gitbook-markdown", "lodash" ],
         "all": {
-            ".*node_modules\/lodash\/index.js$": "./node_modules/lodash/index.js",
-            ".*node_modules\/lodash\/dist\/lodash.js$": "./node_modules/lodash/index.js"
+            ".*node_modules\/lodash\/dist\/lodash.js$": "lodash"
         }
     }
 }
