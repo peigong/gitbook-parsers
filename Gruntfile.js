@@ -1,5 +1,6 @@
 module.exports = function (grunt) {
     var path = require("path");
+    var pkg = require("./package.json");
 
     // Load NPM tasks
     grunt.loadNpmTasks('grunt-browserify');
@@ -22,7 +23,10 @@ module.exports = function (grunt) {
                     },
                     browserifyOptions: {
                         'standalone': "gitbookParsers"
-                    }
+                    },
+                    "transform": [
+                        "browserify-swap"
+                    ]
                 }
             }
         },
