@@ -42,8 +42,8 @@
         "gitbook-restructuredtext": false
     },
     "scripts": {
-        "prepublish": "grunt",
-        "test": "export TESTING=true; mocha --reporter list; grunt"
+        "prepublish": "export BROWSERIFYSWAP_ENV=all; grunt",
+        "test": "export BROWSERIFYSWAP_ENV=all; export TESTING=true; mocha --reporter list; grunt"
     },
     "browserify-swap":{
         "@packages": [ "cheerio", "gitbook-asciidoc", "gitbook-markdown", "lodash" ],
