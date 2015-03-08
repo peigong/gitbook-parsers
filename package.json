@@ -1,6 +1,6 @@
 {
     "name": "gitbook-parsers",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "homepage": "https://www.gitbook.com",
     "description": "Includes GitBook parsers and normalize output",
     "main": "lib/index.js",
