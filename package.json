@@ -7,7 +7,7 @@
     "dependencies": {
         "q": "^1.1.2",
         "lodash": "^3.2.0",
-        "gitbook-markdown": "0.3.3",
+        "gitbook-markdown": "0.3.4",
         "gitbook-asciidoc": "0.2.2",
         "gitbook-restructuredtext": "0.2.2"
     },
