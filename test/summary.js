@@ -12,11 +12,15 @@ describe('Summary normalization', function () {
         {
             title: "Test 2",
             path: "hello\\test2.md"
+        },
+        {
+            title: "Test 3"
         }
     ]);
 
     it('should normalize paths', function() {
         assert.equal(summary.chapters[1].path, "test1.md");
         assert.equal(summary.chapters[2].path, "hello/test2.md");
+        assert.equal(summary.chapters[3].exists, false);
     });
 });
