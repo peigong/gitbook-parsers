@@ -16,6 +16,10 @@ describe('Glossary normalization', function () {
         {
             name: "Abracadabra",
             description: "This is magic!"
+        },
+        {
+            name: "amour",
+            description: "This is love!"
         }
     ]);
 
@@ -29,13 +33,15 @@ describe('Glossary normalization', function () {
 
     it('should correctly sort entries', function() {
         assert.equal(glossary[0].name, "Abracadabra");
-        assert.equal(glossary[1].name, "Babar");
-        assert.equal(glossary[2].name, "Test");
+        assert.equal(glossary[1].name, "amour");
+        assert.equal(glossary[2].name, "Babar");
+        assert.equal(glossary[3].name, "Test");
     });
 
     it('should correctly normalize id', function() {
         assert.equal(glossary[0].id, "abracadabra");
-        assert.equal(glossary[1].id, "babar");
-        assert.equal(glossary[2].id, "test");
+        assert.equal(glossary[1].id, "amour");
+        assert.equal(glossary[2].id, "babar");
+        assert.equal(glossary[3].id, "test");
     });
 });
