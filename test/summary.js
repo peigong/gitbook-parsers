@@ -25,13 +25,21 @@ describe('Summary normalization', function () {
         },
         {
             title: "Test 3"
-        }
+        },
+        {
+            title: "Test 4",
+            path: "./test1.md"
+        },
     ]);
 
     it('should normalize paths', function() {
         assert.equal(summary.chapters[1].path, "test1.md");
         assert.equal(summary.chapters[2].path, "hello/test2.md");
         assert.equal(summary.chapters[3].exists, false);
+    });
+
+    it('should have unique entry by filename', function() {
+        assert.equal(summary.chapters.length, 4);
     });
 
     it('should normalize levels', function() {
