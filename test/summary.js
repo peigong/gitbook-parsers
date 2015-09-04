@@ -61,7 +61,6 @@ describe('Summary normalization', function () {
             entryPoint: "intro.md",
         });
 
-        console.log(summaryWithIntro)
         assert.equal(summaryWithIntro.chapters[0].path, "test1.md");
         assert.equal(summaryWithIntro.chapters[1].path, "intro.md");
         assert.equal(summaryWithIntro.chapters.length, 2);
